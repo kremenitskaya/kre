@@ -1,0 +1,125 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	footer .contacts
+	{
+		margin-top: 12px;	
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.about .bg .container .farm
+	{
+		max-height: 380px;
+		max-width: 305px;
+	}
+
+	.about .bg .container .farm p
+	{
+		padding: 0 5px 15px 5px;
+	}
+	
+	footer .contacts p
+	{
+		font-size: 11px;
+	}
+
+	footer .contacts a
+	{
+		font-size: 11px;
+	}
+
+	footer .logo
+	{
+		-webkit-background-size: contain;
+		     -o-background-size: contain;
+		        background-size: contain;
+	}
+
+	footer .contacts
+	{
+		margin-top: 12px;	
+	}
+
+	footer .contacts .fas
+	{
+		font-size: 26px;
+		text-align: center;
+	}
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.about .bg .container .farm
+	{
+		max-height: 380px;
+		max-width: 100%;
+	}
+
+	.about .bg .container .farm p
+	{
+		padding: 0 40px 15px 70px;
+	}
+
+	.offer .bg .container .offerList
+	{
+		margin-bottom: 40px;
+	}
+	
+}
+
+
+@media only screen and (max-width : 576px) {
+	.header .container-fluid .logo
+	{
+		-webkit-background-size: contain;
+		     -o-background-size: contain;
+		        background-size: contain;
+	}
+}
+
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.about .bg .container .farm p
+	{
+		padding: 0 8px 15px 26px;
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
